@@ -1,3 +1,8 @@
+## kubectl run nginx5 --image=hansol36020/nginx_run --port 80
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+deployment.apps/nginx5 created
+
+ 
  
 ## kubectl get po -o wide
 ```
