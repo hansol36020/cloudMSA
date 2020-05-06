@@ -7,3 +7,5 @@ RUN chmod 755 /start.sh
 RUN /install.sh
 CMD /start.sh
 CMD ["nginx","-g","daemon off;"]
+
+expose 80
